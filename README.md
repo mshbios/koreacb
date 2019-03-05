@@ -6,7 +6,7 @@ docker-compose up -scale=3
 
 # Test code for PySpark
 
-<code>
+<pre><code>
   import findspark
   findspark.init()
   
@@ -26,4 +26,4 @@ docker-compose up -scale=3
   print(pi)
   
   sc.stop()
-</code>
+</code></pre>
