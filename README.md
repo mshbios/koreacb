@@ -1,3 +1,5 @@
-# koreacb
+# Dockerfile for Spark and PySpark
 
-test
+# docker build -t koreacb/spark:latest .
+
+# docoer-compose up -scale=3
